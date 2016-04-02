@@ -17,7 +17,8 @@
  *   * continuous (optional) - if the map should be continuously loaded (e.g., for SLAM)
  *   * tfClient (optional) - the TF client handle to use for a scene node
  *   * rootObject (optional) - the root object to add this marker to
- *   * offsetPose (optional) - offset pose of the grid visualization, e.g. for z-offset (ROSLIB.Pose type)
+ *   * offsetPose (optional) - offset pose of the grid visualization, e.g. for z-offset (ROSLIB.Pose type).
+ *   *                         Only applied if tfClient supplied.
  *   * color (optional) - color of the visualized grid
  *   * opacity (optional) - opacity of the visualized grid (0.0 == fully transparent, 1.0 == opaque)
  */
